@@ -6,4 +6,4 @@ dotnet: 1.0.1
 before_script:
   - chmod a+x build.sh
 script:
-  - ./build.sh --quiet verify
+  - build.sh --quiet verify
